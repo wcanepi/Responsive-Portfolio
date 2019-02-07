@@ -227,11 +227,6 @@ input[type=submit]:hover {
     .column {
         width: 20%
     }
-
-    .activity {
-        margin: 0px 10px 10px 0px;
-    }
-    
 }
 
 @media screen and (max-width: 640px) {
@@ -239,6 +234,12 @@ input[type=submit]:hover {
         min-width: 320px;
     }
     .block1 {
+        min-width: 320px;
+    }
+    .section2 {
+        min-width: 320px;
+    }
+    .section1 {
         min-width: 320px;
     }
 }
@@ -256,11 +257,11 @@ input[type=submit]:hover {
         float: none;
     }
 
-    nav {
+    /* nav {
         text-align: center;
         padding: 20px 0px;
         line-height: normal;
-    }
+    } */
 
     /* About */
     .content {
@@ -278,12 +279,17 @@ input[type=submit]:hover {
 
     /* Portfolio */
     .activity {
-        width: 100%;
+        /* width: 100%; */
         margin: 0px 10px 10px 0px;
         text-align: center;
         display: inline-block;
         float: none;
     }
+    /* li{
+        text-align: center;
+        padding: 20px 0px;
+        line-height: normal; 
+    } */
 
     /* Contact Form */
     input[type=text] {
